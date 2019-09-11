@@ -9,13 +9,14 @@ def deal_card
   card_value
 end
 
-def display_card_total(num)
+def display_card_total(card_total)
   # code #display_card_total here
-  puts "Your"
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
+  puts
 end
 
 def get_user_input
