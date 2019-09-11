@@ -63,5 +63,11 @@ end
 
 def runner
   # code runner here
+  welcome()
+  card_total = initial_round()
+  card_hits = hit?(card_total)
+  if card_hits == card_total
+    card_hits = hit?(card_total)
+    
 end
     
